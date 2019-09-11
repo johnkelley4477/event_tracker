@@ -1,0 +1,296 @@
+input,textarea, select {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border: 2px solid #8af;
+    padding: 5px;
+    border-radius: 10px;
+}
+input[type="text"]:disabled {
+    border: none;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
+input[type='submit'], input[type='button']{
+  background-color: #cef;
+  max-width:100px;
+}
+input[type='submit']:disabled, input[type='button']:disabled{
+  background-color: #aaa;
+  border-color: #555;
+}
+input[type='checkbox']{
+  background-color:#fff;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  width:25px !important;
+  height:25px;
+}
+input[type='checkbox']:checked{
+  background-color: #cef;
+}
+label{
+  font-size: 1.2em;
+  font-weight: bold;
+  color:#68f;
+}
+.flex{
+  display:flex;
+}
+.grid{
+  display:grid;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.phone_width{
+  max-width: 360px;
+}
+.phone_width input, .phone_width textarea{
+  width:100%
+}
+.phone_width select{
+  -webkit-appearance: none;
+  appearance: none;
+}
+.admin_menu{
+  color: #cef;
+  background: #8af;
+  padding: 3px;
+  margin-top: -10px;
+}
+.admin_menu div{
+  width:140px;
+  margin: auto;
+}
+.w104p{
+  width:104%;
+}
+.accordion {
+  color: #68f;
+  padding: 5px;
+  border: 2px solid #8af;
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: bold;
+  clear:both;
+  cursor: pointer;
+}
+.isDisabled {
+  color: #cef;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.border{
+  border: #8af 2px solid;
+  width: 336px;
+  padding: 10px;
+  border-top-style: none;
+  overflow-y: auto;
+}
+.font_white{
+  color:#fff;
+}
+.loginOut{
+  text-align: right;
+  padding-top: 10px;
+  margin-right: 10px;
+  font-size: 2em;
+}
+.border.small{
+  height: 140px;
+  overflow-y: hidden;
+}
+.hidden{
+  display: none;
+}
+.panel div{
+  margin-bottom: 10px;
+}
+.panel div a{
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.pt5{
+  padding-top: 5px;
+}
+.mt5{
+  margin-top: 5px;
+}
+.mt25{
+  margin-top: 25px;
+}
+.mr40{
+  margin-right: 40px;
+}
+.mr30{
+  margin-right: 30px;
+}
+.mr15{
+  margin-right: 15px;
+}
+.t_right{
+  text-align: right;
+}
+.t_left{
+  text-align: left;
+}
+.t_center{
+  text-align: center;
+}
+.cap{
+  text-transform: capitalize;
+}
+.icon_button{
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #8af;
+  border-radius: 15px;
+  padding:10px;
+  width:25px;
+  height:25px;
+  cursor: pointer;
+}
+.icon_button[disabled]  {
+  background-color: #777;
+}
+.font1_1{
+  font-size: 1.1em;
+}
+.font1_2{
+  font-size: 1.2em;
+}
+.bold{
+  font-weight: bold;
+}
+.flright{
+  float:right;
+}
+.flleft{
+  float:left;
+}
+.clear{
+  clear:both;
+}
+.w75{
+  width:75%;
+}
+.w25{
+  width:25%;
+}
+.w10{
+  width:10%;
+}
+.w30{
+  width:30%;
+}
+.w70{
+  width:70%;
+}
+.w50{
+  width:50%
+}
+.w100{
+  width:100%;
+}
+.ml60p{
+  margin-left: 60%
+}
+.heightDouble{
+  height:2em;
+}
+
+#description {
+    height: 150px;
+    overflow-y: scroll;
+    color: #777;
+}
+
+.modal {
+/*  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px 30px 20px 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.header {
+    background-color: #8af;
+    color: #cef;
+    padding: 5px;
+    margin: -20px -30px -20px -20px;
+    position: relative;
+}
+.checkbox{
+  position: absolute;
+  font-size: 1.5em;
+  right: 23px;
+  top: 0px;
+  color: #68f;
+}
+.checkboxr5{
+  position: absolute;
+  font-size: 1.5em;
+  right: 5px;
+  top: 0px;
+  color: #68f;
+}
+.close{
+  padding:10px;
+  width:25px;
+  height:25px;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-align: right;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+.dateLayout {
+  font-size: 0.9em;
+  float: right;
+}
+.sub {
+  font-size: 0.8em;
+  display: block;
+}
+.underline{
+  border-bottom: #cef solid 1px;
+}
+.error{
+  color: #900;
+  font-size: 1.2em;
+  background: #fbb;
+  border: #900 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.select_contaner{
+  position: relative;
+}
+.dropdownCaret{
+  position: absolute;
+  right: 0px;
+  top: 9px;
+  font-size: 1.2em;
+  color: #68f;
+}
